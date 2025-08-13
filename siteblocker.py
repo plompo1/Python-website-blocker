@@ -72,14 +72,15 @@ def main() -> None:
             try:
                 hwnd = win32gui.GetForegroundWindow()
                 if is_blocked_site(hwnd):
-                    close_browser()
+                	close_browser()
                     opens += 1
                     openssave += 1
                     save_opens()
                     
                     time.sleep(1)
-                    print(f"You have now tried opening {block} {opens} time(s) "
-                          f"while this has been open now, and {openssave} in total.")
+
+                    # Un-comment this line if you want i guess:
+                    #print(f"You have now tried opening {block} {opens} time(s) while this has been open now, and {openssave} in total.")
             except Exception as e:
                 print(f"An error occurred: {e}")
                 
@@ -88,4 +89,5 @@ def main() -> None:
         print("\nStopping site blocker...")
 
 if __name__ == "__main__":
+
     main()
