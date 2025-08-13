@@ -1,2 +1,2 @@
 # Python-website-blocker
-Originally made this to close my browser when i open YouTube so I can stop procrastinating, but I thought it would be cool to put it on Github.
+This is a python script that closes your browser whenever you open a specific website. If you use this, remember that it will just close your browser window. This means that any data you have not saved will be deleted.
