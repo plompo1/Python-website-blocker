@@ -79,7 +79,6 @@ def main() -> None:
                     
                     time.sleep(1)
 
-                    # Un-comment this line if you want i guess:
                     #print(f"You have now tried opening {block} {opens} time(s) while this has been open now, and {openssave} in total.")
             except Exception as e:
                 print(f"An error occurred: {e}")
@@ -91,3 +90,4 @@ def main() -> None:
 if __name__ == "__main__":
 
     main()
+
